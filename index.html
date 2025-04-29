@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWear</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="background-video"><source src="videos/basic background.mp4" type="video/mp4"></video>
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Enter city">
+        <button type="submit">Get Weather</button>
+    </form>
+<div class="weather-container">
+    <section class="left-side">
+        <div class="card" style="display: none"></div>
+    </section>
+    <section class="right-side">
+        <div class="card2" style="display: none"></div>
+    </section>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
